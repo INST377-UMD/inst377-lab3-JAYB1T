@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab3 Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <header class="header-footer">
+        <h1>Lab3 Rock-Paper-Scissors!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="https://www.nintendo.com/us/" target="_blank">Nintendo</a></li>
+            <li><a href="https://www.rockstargames.com/" target="_blank">Rockstar Games</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main class="main-content">
+            <h2>Enter Your Name & Choose an Option</h2>
+            <form action="thankyou.html" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="choice">Choose an Option:</label>
+                <select id="choice" name="choice">
+                    <option value="rock">Rock</option>
+                    <option value="paper">Paper</option>
+                    <option value="scissors">Scissors</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+
+        <aside class="sidebar">
+            <h2>How to Play</h2>
+            <p>Rock beats Scissors</p>
+            <p>Scissors beats Paper</p>
+            <p>Paper beats Rock</p>
+        </aside>
+    </div>
+
+    
+    <footer class="header-footer">
+        <p>Thank You for Playing!</p>
+    </footer>
+
+</body>
+</html>
